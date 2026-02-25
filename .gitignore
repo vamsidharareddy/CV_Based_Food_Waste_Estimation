@@ -1,0 +1,65 @@
+# Virtual Environments
+foodenv/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Detectron2 source (can reinstall)
+detectron2/
+
+# Model Files (Large & Proprietary)
+*.pth
+*.pkl
+*.weights
+model_final.pth
+food_type_model/model_final.pth
+shape_model/model_final.pth
+
+# Dataset & Images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+dataset/
+datasets/
+images/
+data/
+
+# Output & Results
+output/
+output_*/
+output_mask_rcnn/
+runs/
+logs/
+
+# Config files with sensitive paths (optional)
+# config.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
