@@ -27,9 +27,6 @@ food_type_model/model_final.pth
 shape_model/model_final.pth
 
 # Dataset & Images
-*.jpg
-*.jpeg
-*.png
 *.bmp
 *.tiff
 *.gif
